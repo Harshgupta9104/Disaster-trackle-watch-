@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AIDEXAN — IoT Emergency Intelligence Platform</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div id="navbar-container"></div>
+
+<!-- BACKGROUND -->
+<div class="iot-bg"></div>
+
+<!-- HERO SLIDESHOW -->
+<section class="slideshow-hero">
+  <div class="slides-container">
+
+    <div class="slide active">
+      <img src="https://picsum.photos/id/1015/2000/1200" alt="Disaster Response">
+      <div class="slide-overlay">
+        <h1>When Disaster Strikes,<br>Every Signal Matters</h1>
+        <p>Real-time IoT intelligence powered by smart wearables</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="https://picsum.photos/id/1036/2000/1200" alt="GNSS Tracking">
+      <div class="slide-overlay">
+        <h1>Live GNSS Tracking</h1>
+        <p>Accurate positioning in critical environments</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="https://picsum.photos/id/866/2000/1200" alt="Emergency Alerts">
+      <div class="slide-overlay">
+        <h1>Instant SOS Alerts</h1>
+        <p>Vitals and location transmitted instantly</p>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="slide-btn prev" onclick="changeSlide(-1)">‹</button>
+  <button class="slide-btn next" onclick="changeSlide(1)">›</button>
+  <div class="dots" id="dots"></div>
+</section>
+
+<!-- FEATURES -->
+<section class="flashcards-section" id="features">
+  <h2>Core Capabilities</h2>
+
+  <div class="features-grid">
+
+    <!-- Live Location -->
+    <div class="feature-card">
+      <div class="icon-box blue">
+        <svg viewBox="0 0 24 24">
+          <path d="M12 2C8.1 2 5 5.1 5 9c0 5.3 7 13 7 13s7-7.7 7-13c0-3.9-3.1-7-7-7z"/>
+          <circle cx="12" cy="9" r="2.5"/>
+        </svg>
+      </div>
+      <h3>Live Location</h3>
+      <p>GNSS-based real-time positioning</p>
+    </div>
+
+    <!-- Emergency SOS -->
+    <div class="feature-card">
+      <div class="icon-box red">
+        <svg viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="10"/>
+          <line x1="12" y1="7" x2="12" y2="13"/>
+          <circle cx="12" cy="17" r="1"/>
+        </svg>
+      </div>
+      <h3>Emergency SOS</h3>
+      <p>One-touch emergency alert</p>
+    </div>
+
+    <!-- Health Monitoring -->
+    <div class="feature-card">
+      <div class="icon-box green">
+        <svg viewBox="0 0 24 24">
+          <polyline points="3 12 7 12 10 18 14 6 17 12 21 12"/>
+        </svg>
+      </div>
+      <h3>Health Monitoring</h3>
+      <p>Heart rate & fall detection</p>
+    </div>
+
+    <!-- IoT Connectivity -->
+    <div class="feature-card">
+      <div class="icon-box purple">
+        <svg viewBox="0 0 24 24">
+          <path d="M2 12a10 10 0 0120 0"/>
+          <path d="M6 12a6 6 0 0112 0"/>
+          <path d="M10 12a2 2 0 014 0"/>
+        </svg>
+      </div>
+      <h3>IoT Connectivity</h3>
+      <p>LTE-M / NB-IoT connectivity</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- PRODUCT DETAILS -->
+<section class="details-section" id="details">
+  <h2>Product Architecture</h2>
+
+  <div class="detail-block left">
+    <div class="detail-image">
+      <img src="https://picsum.photos/id/180/800/500" alt="Wearable IoT Node">
+    </div>
+    <div class="detail-text">
+      <h3>Wearable IoT Node</h3>
+      <p>
+        Rugged wearable node engineered for disaster environments,
+        integrating GNSS positioning, biometric sensing, fall detection,
+        and ultra-low-power operation.
+      </p>
+    </div>
+  </div>
+
+  <div class="detail-block right">
+    <div class="detail-text">
+      <h3>Wide-Area Connectivity</h3>
+      <p>
+        LTE-M and NB-IoT ensure reliable communication in low-infrastructure
+        disaster zones.
+      </p>
+    </div>
+    <div class="detail-image">
+      <img src="https://picsum.photos/id/1015/800/500" alt="Connectivity">
+    </div>
+  </div>
+
+  <div class="detail-block left">
+    <div class="detail-image">
+      <img src="https://picsum.photos/id/1016/800/500" alt="Dashboard">
+    </div>
+    <div class="detail-text">
+      <h3>Command Dashboard</h3>
+      <p>
+        Centralized dashboard for live tracking, alerts,
+        analytics and coordinated response.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  © 2026 AIDEXAN — IoT Emergency Intelligence Platform
+</footer>
+
+<!-- SCRIPTS -->
+<script src="js/navbar.js"></script>
+<script src="js/home.js"></script>
+
+</body>
+</html>
