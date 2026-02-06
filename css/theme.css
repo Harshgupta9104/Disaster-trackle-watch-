@@ -1,0 +1,33 @@
+:root {
+  --bg: #0b1020;
+  --surface: #11162a;
+  --primary: #6366f1;
+  --danger: #ef4444;
+  --text: #e5e7eb;
+  --muted: #9ca3af;
+  --radius: 12px;
+  --transition: 0.25s ease;
+}
+
+body.light {
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --primary: #2563eb;
+  --text: #111827;
+  --muted: #6b7280;
+}
+
+body.blue {
+  --bg: #e8f0fe;
+  --surface: #ffffff;
+  --primary: #1a73e8;
+  --text: #202124;
+  --muted: #5f6368;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}

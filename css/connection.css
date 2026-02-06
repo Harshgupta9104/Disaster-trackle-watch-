@@ -1,0 +1,5 @@
+.status {
+  background: var(--surface);
+  padding: 20px;
+  border-radius: var(--radius);
+}
